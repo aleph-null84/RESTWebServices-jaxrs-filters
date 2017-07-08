@@ -13,6 +13,7 @@ public class PoweredByResponseFilter implements ContainerResponseFilter {
 	@Override
 	public void filter(ContainerRequestContext requestContext, 
 			           ContainerResponseContext responseContext) throws IOException {
+		System.out.println("Response filter (PoweredByResponseFilter)");
 		responseContext.getHeaders().add("My-Powered-By", "Aleph Null");
 		
 	}
