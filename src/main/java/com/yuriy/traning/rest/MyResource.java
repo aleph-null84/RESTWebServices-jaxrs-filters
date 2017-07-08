@@ -1,4 +1,4 @@
-package org.koushik.javabrains.rest;
+package com.yuriy.traning.rest;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
